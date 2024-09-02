@@ -1,0 +1,41 @@
+name: responsive_app
+description: "Assignment on Responsive Design."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Cupertino Icons for iOS style icons
+  cupertino_icons: ^1.0.8
+  responsive_builder: ^0.7.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Recommended lints for Flutter projects
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add assets like images here
+  assets:
+    - assets/logo.png
+
+  # Custom fonts configuration
+  fonts:
+    - family: Open Sans
+      fonts:
+        - asset: assets/fonts/OpenSans-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/OpenSans-Regular.ttf
+          weight: 400
